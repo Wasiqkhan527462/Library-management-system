@@ -1,0 +1,47 @@
+/* AddUser.css */
+
+.add-user-container {
+  width: 45%;
+  max-width: 400px;
+  margin: 30px auto auto auto;
+  padding: 45px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #5cb85c;
+  outline: none;
+}
+
+.adduser {
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.adduser:hover {
+  background-color: #4cae4c;
+}
